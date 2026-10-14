@@ -9,7 +9,7 @@ import structlog
 from app.core.config import settings
 
 
-def setuplogging() -> None:
+def setup_logging() -> None:
     """Configure structured logging pipeline with contextual variables and timestamping"""
     shared_processors: list[Any] = [
         structlog.contextvars.merge_contextvars,

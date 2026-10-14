@@ -28,5 +28,5 @@ class WorkflowExecutionError(AgentBuilderError):
     """Raised when a error occurs during LangGraph state graph execution"""
 
 
-class ResourceNotFountError(AgentBuilderError):
+class ResourceNotFoundError(AgentBuilderError):
     """Raised when a requested resource (graph, agent, session) is not found."""
